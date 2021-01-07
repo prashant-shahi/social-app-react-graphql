@@ -3,7 +3,7 @@ import { useQuery } from '@apollo/client'
 import moment from 'moment'
 
 import { FETCH_POST_QUERY } from '../utils/graphql'
-import { Button, Card, Grid, Label, Image, Icon } from 'semantic-ui-react'
+import { Card, Grid, Image } from 'semantic-ui-react'
 import LikeButton from '../components/LikeButton'
 import { AuthContext } from '../context/auth'
 import DeleteButton from '../components/DeleteButton'
